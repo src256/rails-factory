@@ -4,6 +4,8 @@
 #bundle config build.therubyracer --with-v8-dir
 
 set -x
+export PKG_CONFIG_PATH="/opt/local/libexec/openssl11/lib/pkgconfig"
+
 #export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 #export PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig
 #export PATH=/usr/local/Cellar/imagemagick@6/6.9.9-22/bin:$PATH
